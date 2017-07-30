@@ -1,4 +1,4 @@
-package br.com.api.lab03;
+package br.com.api.lab04;
 
 import org.junit.Test;
 
@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 //@RunWith(SpringRunner.class)
 //@SpringBootTest
-public class Lab03ChannelSerieApplicationTests {
+public class Lab04ChannelSerieApplicationTests {
 
 	@Test
 	public void contextLoads() {
