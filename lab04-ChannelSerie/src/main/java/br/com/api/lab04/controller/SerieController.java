@@ -1,9 +1,10 @@
-package br.com.api.lab03.controller;
+package br.com.api.lab04.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
-import br.com.api.lab03.model.Serie;
-import br.com.api.lab03.service.SerieService;
+
+import br.com.api.lab04.model.Serie;
+import br.com.api.lab04.service.SerieService;
 
 @RestController
 public class SerieController {

@@ -1,4 +1,4 @@
-package br.com.api.lab03.model;
+package br.com.api.lab04.model;
 
 
 import java.util.Set;

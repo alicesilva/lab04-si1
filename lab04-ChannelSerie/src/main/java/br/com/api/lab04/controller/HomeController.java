@@ -1,4 +1,4 @@
-package br.com.api.lab03.controller;
+package br.com.api.lab04.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

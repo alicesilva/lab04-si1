@@ -1,4 +1,4 @@
-package br.com.api.lab03.controller;
+package br.com.api.lab04.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import br.com.api.lab03.model.UserSystem;
-import br.com.api.lab03.service.UserSystemService;
+import br.com.api.lab04.model.UserSystem;
+import br.com.api.lab04.service.UserSystemService;
 
 @Controller
 public class RegisterController {

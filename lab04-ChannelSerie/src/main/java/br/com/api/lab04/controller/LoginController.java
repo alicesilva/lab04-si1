@@ -1,4 +1,4 @@
-package br.com.api.lab03.controller;
+package br.com.api.lab04.controller;
 
 
 import javax.servlet.ServletException;
@@ -8,8 +8,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import br.com.api.lab03.model.UserSystem;
-import br.com.api.lab03.service.UserSystemService;
+
+import br.com.api.lab04.model.UserSystem;
+import br.com.api.lab04.service.UserSystemService;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 

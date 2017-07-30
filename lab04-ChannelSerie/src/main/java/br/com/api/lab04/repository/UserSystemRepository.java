@@ -1,4 +1,4 @@
-package br.com.api.lab03.repository;
+package br.com.api.lab04.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import br.com.api.lab03.model.UserSystem;
+import br.com.api.lab04.model.UserSystem;
 
 @Repository
 public interface UserSystemRepository extends JpaRepository<UserSystem, Integer>{

@@ -1,11 +1,12 @@
-package br.com.api.lab03.service;
+package br.com.api.lab04.service;
 
 import java.util.Set;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import br.com.api.lab03.model.Serie;
-import br.com.api.lab03.model.UserSystem;
-import br.com.api.lab03.repository.UserSystemRepository;
+
+import br.com.api.lab04.model.Serie;
+import br.com.api.lab04.model.UserSystem;
+import br.com.api.lab04.repository.UserSystemRepository;
 
 @Service
 public class UserSystemService {

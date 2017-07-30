@@ -1,11 +1,11 @@
-package br.com.api.lab03.service;
+package br.com.api.lab04.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.stereotype.Service;
 
-import br.com.api.lab03.model.Serie;
-import br.com.api.lab03.repository.SerieRepository;
+import br.com.api.lab04.model.Serie;
+import br.com.api.lab04.repository.SerieRepository;
 
 @Service
 public class SerieService {
