@@ -12,7 +12,7 @@ app
 					$http.defaults.headers.common.Authorization = 'Bearer '
 							+ token;
 					$http.get(
-							'https://omdbapi.com/?s=' + $scope.nameSerie
+							'HTTPS://omdbapi.com/?s=' + $scope.nameSerie
 									+ '&type=series&r=json&apikey=93330d3c', {
 								headers : {
 									'Authorization' : undefined
