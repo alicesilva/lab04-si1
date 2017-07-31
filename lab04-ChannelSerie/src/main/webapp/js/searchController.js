@@ -70,7 +70,7 @@ app
 								.then(
 										function(response) {
 											if (response.data == "") {
-												alert("Series has already been added to the profile or watch list, it is impossible to add it again");
+												alert("Series has already been added to the profile or watchlist, it is impossible to add it again!");
 											} else {
 												$rootScope.userLoggedIn = response.data;
 											}
